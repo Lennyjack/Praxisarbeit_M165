@@ -1,0 +1,190 @@
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using MongoDB.Driver;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.IdentityModel.Tokens;
+
+namespace JetstreamAPI.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ServiceOrdersController : ControllerBase
+    {
+        private readonly MongoDbService _mongoDbService;
+        private readonly UserService _userService;
+        private readonly IConfiguration _configuration;
+
+        public ServiceOrdersController(MongoDbService mongoDbService, UserService userService, IConfiguration configuration)
+        {
+            _mongoDbService = mongoDbService;
+            _userService = userService;
+            _configuration = configuration;
+        }
+
+        // Register User
+        [HttpPost("register")]
+        public async Task<ActionResult<User>> Register(User user)
+        {
+            // Check if the user already exists
+            var existingUser = await _userService.GetUserByUsername(user.Username);
+            if (existingUser != null)
+            {
+                return Conflict("Username is already taken.");
+            }
+
+            // Save the new user
+            await _userService.CreateUser(user);
+            return CreatedAtAction(nameof(GetUserById), new { id = user.Id }, user);
+        }
+
+        // Login User
+        [HttpPost("login")]
+        public async Task<ActionResult<string>> Login(UserLogin credentials)
+        {
+            var user = await _userService.Authenticate(credentials.Username, credentials.Password);
+
+            if (user == null)
+            {
+                return Unauthorized("Invalid credentials.");
+            }
+
+            // Generate JWT token
+            var token = GenerateJwtToken(user);
+            return Ok(new { Token = token });
+        }
+
+        // Helper method to generate JWT Token
+        private string GenerateJwtToken(User user)
+        {
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id),
+                new Claim(ClaimTypes.Name, user.Username),
+                new Claim(ClaimTypes.Role, user.Role)  // Optional if you use roles
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSecretKey"])); // Store in appsettings.json
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            var token = new JwtSecurityToken(
+                issuer: "JetstreamAPI",
+                audience: "JetstreamAPI",
+                claims: claims,
+                expires: DateTime.Now.AddHours(1),
+                signingCredentials: creds
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        // Place Order (User is logged in via JWT token)
+        [HttpPost("order")]
+        public async Task<ActionResult<ServiceOrder>> PlaceOrder(ServiceOrder order)
+        {
+            var userId = GetCurrentUserId();  // Use the logged-in user's ID
+
+            order.UserId = userId;  // Associate the order with the logged-in user
+            await _mongoDbService.CreateServiceOrder(order);
+
+            return CreatedAtAction(nameof(GetOrderById), new { id = order.Id }, order);
+        }
+
+        // Get all Orders for logged-in user
+        [HttpGet("orders")]
+        public async Task<ActionResult<List<ServiceOrder>>> GetOrders()
+        {
+            var userId = GetCurrentUserId();  // Get the logged-in user's ID
+            var orders = await _mongoDbService.GetServiceOrdersByUserId(userId);
+            
+            return Ok(orders);
+        }
+
+        // Get a single order by its ID for the logged-in user
+        [HttpGet("orders/{id}")]
+        public async Task<ActionResult<ServiceOrder>> GetOrderById(string id)
+        {
+            var userId = GetCurrentUserId();
+            var order = await _mongoDbService.GetServiceOrderById(id, userId);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(order);
+        }
+
+        // Get all service orders (Admin only)
+        [HttpGet]
+        [Authorize(Roles = "admin")]  // Admin can get all orders
+        public async Task<ActionResult<List<ServiceOrder>>> GetAll()
+        {
+            var orders = await _mongoDbService.GetServiceOrders();
+            return Ok(orders);
+        }
+
+        // Update Order (Only the user or admin can update)
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Update(string id, ServiceOrder updatedOrder)
+        {
+            var userId = GetCurrentUserId();
+            var order = await _mongoDbService.GetServiceOrderById(id);
+
+            if (order == null || order.UserId != userId && !IsAdmin())
+            {
+                return Unauthorized("You are not authorized to update this order.");
+            }
+
+            await _mongoDbService.UpdateServiceOrder(id, updatedOrder);
+            return NoContent();
+        }
+
+        // Delete order (Only the user or admin can delete)
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(string id)
+        {
+            var userId = GetCurrentUserId();
+            var order = await _mongoDbService.GetServiceOrderById(id);
+
+            if (order == null || order.UserId != userId && !IsAdmin())
+            {
+                return Unauthorized("You are not authorized to delete this order.");
+            }
+
+            await _mongoDbService.DeleteServiceOrder(id);
+            return NoContent();
+        }
+
+        // Update order status (Only the user or admin can update)
+        [HttpPatch("{id}/status")]
+        public async Task<ActionResult> UpdateStatus(string id, [FromBody] string status)
+        {
+            var userId = GetCurrentUserId();
+            var order = await _mongoDbService.GetServiceOrderById(id);
+
+            if (order == null || order.UserId != userId && !IsAdmin())
+            {
+                return Unauthorized("You are not authorized to update this order.");
+            }
+
+            order.Status = status;
+            await _mongoDbService.UpdateServiceOrder(id, order);
+            return NoContent();
+        }
+
+        // Get the current logged-in user's ID from the JWT token
+        private string GetCurrentUserId()
+        {
+            return User.FindFirst(ClaimTypes.NameIdentifier)?.Value;  // Assumes user ID is stored as "NameIdentifier" in JWT
+        }
+
+        // Helper method to check if the current user is an admin
+        private bool IsAdmin()
+        {
+            return User.IsInRole("admin");
+        }
+    }
+}

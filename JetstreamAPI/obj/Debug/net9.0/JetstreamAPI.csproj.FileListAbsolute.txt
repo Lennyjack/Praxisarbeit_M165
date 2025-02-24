@@ -1,0 +1,84 @@
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\appsettings.json
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.staticwebassets.endpoints.json
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.exe
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.deps.json
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.runtimeconfig.json
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.pdb
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\DnsClient.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\MongoDB.Bson.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\MongoDB.Driver.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\SharpCompress.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Snappier.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\ZstdSharp.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.csproj.AssemblyReference.cache
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.AssemblyInfoInputs.cache
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.AssemblyInfo.cs
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.csproj.CoreCompileInputs.cache
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\scopedcss\bundle\JetstreamAPI.styles.css
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets\msbuild.JetstreamAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets\msbuild.JetstreamAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets\msbuild.build.JetstreamAPI.props
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.JetstreamAPI.props
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.JetstreamAPI.props
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\Jetstrea.9A808AB4.Up2Date
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\refint\JetstreamAPI.dll
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.pdb
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.genruntimeconfig.cache
+C:\Users\lenny\OneDrive - ipso! Bildung\Desktop\Allgemeine_Infos_Schule\Modul 165.3\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\ref\JetstreamAPI.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\appsettings.Development.json
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\appsettings.json
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.staticwebassets.endpoints.json
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.exe
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.deps.json
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.runtimeconfig.json
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.pdb
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\DnsClient.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\MongoDB.Bson.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\MongoDB.Driver.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\SharpCompress.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Snappier.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\ZstdSharp.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.csproj.AssemblyReference.cache
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.AssemblyInfoInputs.cache
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.AssemblyInfo.cs
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.csproj.CoreCompileInputs.cache
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\scopedcss\bundle\JetstreamAPI.styles.css
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets.build.json
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets.development.json
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets\msbuild.JetstreamAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets\msbuild.JetstreamAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets\msbuild.build.JetstreamAPI.props
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.JetstreamAPI.props
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.JetstreamAPI.props
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\Jetstrea.9A808AB4.Up2Date
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\refint\JetstreamAPI.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.pdb
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.genruntimeconfig.cache
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\ref\JetstreamAPI.dll
