@@ -1,7 +1,23 @@
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
+
+// Class representing a user in the system
 public class User
 {
-    public string? Id { get; set; }
+    // Unique identifier for the user, stored as ObjectId in MongoDB
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string Id { get; set; }
+
+    // Username of the user, used for login and identification
+    [BsonElement("username")]
     public string Username { get; set; }
-    public string Password { get; set; }
-    public string Role { get; set; }  // z.B. "admin", "user"
+
+    // Hashed password for user authentication
+    [BsonElement("passwordHash")]
+    public string PasswordHash { get; set; }
+
+    // Role of the user, e.g., "user" or "admin"
+    [BsonElement("role")]
+    public string Role { get; set; }
 }

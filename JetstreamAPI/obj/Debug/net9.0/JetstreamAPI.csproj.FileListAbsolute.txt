@@ -49,7 +49,14 @@ C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.runtim
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.dll
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\JetstreamAPI.pdb
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\DnsClient.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\MongoDB.Bson.dll
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\MongoDB.Driver.dll
@@ -58,6 +65,7 @@ C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Snappier.dll
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\bin\Debug\net9.0\ZstdSharp.dll
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.csproj.AssemblyReference.cache
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.GeneratedMSBuildEditorConfig.editorconfig
@@ -66,6 +74,7 @@ C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.Assemb
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.csproj.CoreCompileInputs.cache
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\JetstreamAPI.sourcelink.json
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\scopedcss\bundle\JetstreamAPI.styles.css
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets.build.json
 C:\Temp\Modul 165\Praxisarbeit\JetstreamAPI\obj\Debug\net9.0\staticwebassets.development.json
